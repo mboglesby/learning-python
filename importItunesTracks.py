@@ -85,7 +85,6 @@ for track in tracks :
     albumName = extractValueForKey(track, "Album")
     artistName = extractValueForKey(track, "Artist")
     genre = extractValueForKey(track, "Genre")
-    #print(trackName, ";", genre)
     length = extractValueForKey(track, "Total Time")
     rating = extractValueForKey(track, "Rating")
     count = extractValueForKey(track, "Play Count")
